@@ -1,0 +1,23 @@
+/* Remove margens e padding extras e garante que a largura total da página seja respeitada */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #F1F1F1;
+    overflow-x: hidden; /* Remove a rolagem horizontal */
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+  
+  /* Define o estilo principal para o corpo da página */
+  body {
+    margin: 0;
+  }
+  
+  /* Se precisar de mais estilos globais, você pode adicioná-los abaixo */
+  
+
